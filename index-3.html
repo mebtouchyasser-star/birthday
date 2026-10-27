@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#160b17">
+<title>Happy Birthday, My Love ❤️</title>
+<style>
+:root{--bg:#100812;--panel:#1b101d;--rose:#ff91b5;--gold:#f4d7a1;--cream:#fff2e6;--text:#fff7f8;--muted:#d8bac9}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top,#38182d 0,#160b17 48%,#08060c 100%);color:var(--text);font-family:Georgia,'Times New Roman',serif;min-height:100vh}
+button,input{font:inherit}button{cursor:pointer}.wrap{width:min(920px,100%);margin:auto;padding:18px}.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 2px;color:var(--muted);font:13px system-ui}.brand{letter-spacing:.12em;text-transform:uppercase}.pill{border:1px solid #694052;background:#241321;color:#ffe6ef;border-radius:999px;padding:9px 13px;font:13px system-ui}
+.hero{min-height:75vh;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;border:1px solid #62394e;border-radius:28px;background:linear-gradient(180deg,#110b1bd9,#1d0b19c9),radial-gradient(circle at 70% 15%,#77304f,transparent 42%);padding:28px 20px}
+.hero:before,.hero:after{content:"✦";position:absolute;color:#ffd5a2;opacity:.7;animation:twinkle 2.5s infinite alternate}.hero:before{top:12%;left:12%;font-size:24px}.hero:after{right:13%;top:23%;font-size:18px;animation-delay:1s}
+@keyframes twinkle{to{opacity:.15;transform:scale(.7) rotate(25deg)}}.eyebrow{font:12px system-ui;letter-spacing:.25em;text-transform:uppercase;color:var(--gold)}h1{font-size:clamp(42px,9vw,78px);line-height:1.02;font-weight:normal;font-style:italic;margin:18px 0;color:#ffd4e2;text-shadow:0 0 25px #ff83b45c}.hero p{max-width:440px;line-height:1.7;color:#f4dce7}.primary{border:0;background:linear-gradient(135deg,#ff9aba,#b72e61);color:#fff;border-radius:999px;padding:14px 24px;box-shadow:0 8px 26px #e94f8250;font:600 14px system-ui;margin-top:14px}.section{padding:54px 0 10px}.section-head{text-align:center;margin:0 0 24px}.section-head small{color:var(--gold);letter-spacing:.18em;text-transform:uppercase;font:11px system-ui}.section-head h2{font-weight:normal;font-style:italic;font-size:clamp(29px,6vw,42px);margin:8px 0;color:#ffd5e2}.section-head p{color:var(--muted);font:14px/1.6 system-ui}
+.card{background:linear-gradient(145deg,#241422,#140c18);border:1px solid #5c344a;border-radius:24px;padding:22px;box-shadow:0 18px 50px #0003}.letter-stage{min-height:300px;display:grid;place-items:center;perspective:900px;position:relative}.envelope{width:min(340px,85vw);height:210px;position:relative;border:0;background:transparent;transition:transform .5s}.env-body{position:absolute;inset:20px 0 0;background:#e9c2a3;border-radius:5px 5px 10px 10px;box-shadow:0 15px 35px #0005;overflow:hidden}.env-body:before,.env-body:after{content:"";position:absolute;bottom:0;width:0;height:0;border-style:solid;z-index:2}.env-body:before{left:0;border-width:0 0 170px 170px;border-color:transparent transparent #d4a182 transparent}.env-body:after{right:0;border-width:170px 0 0 170px;border-color:transparent transparent transparent #c88f75}.flap{position:absolute;top:20px;left:0;width:0;height:0;border-left:170px solid transparent;border-right:170px solid transparent;border-top:115px solid #f1d1b6;transform-origin:top;transition:transform .8s;z-index:4;filter:drop-shadow(0 3px 3px #0002)}.seal{position:absolute;z-index:5;left:50%;top:106px;transform:translateX(-50%);width:42px;height:42px;border-radius:50%;background:radial-gradient(circle at 30% 25%,#ff8c9d,#8d1639);display:grid;place-items:center;font-size:20px;box-shadow:0 3px 9px #6d1938}.envelope.open .flap{transform:rotateX(180deg);z-index:1}.envelope.open .seal{opacity:0;transition:.3s}.envelope.open .letter-paper{transform:translateY(-115px);transition-delay:.3s}.letter-paper{position:absolute;left:7%;top:26px;width:86%;min-height:165px;background:#fff0dc;color:#593a37;padding:22px 16px 15px;text-align:center;border-radius:4px;box-shadow:0 2px 8px #0002;transform:translateY(25px);transition:transform .8s;z-index:2}.letter-paper strong{font-size:20px;font-style:italic}.letter-paper p{font-size:13px;line-height:1.5}.hint{font:13px system-ui;color:var(--muted);text-align:center;margin-top:20px}.letter-content{display:none;background:#fff0dc;color:#4a3030;border-radius:14px;padding:24px;line-height:1.8;margin-top:16px;white-space:pre-wrap}.letter-content.show{display:block;animation:rise .7s both}@keyframes rise{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:none}}
+.scratch-wrap{max-width:480px;margin:auto}.scratchbox{position:relative;border-radius:18px;overflow:hidden;min-height:230px;background:linear-gradient(135deg,#ffd3df,#ffe8d8);display:grid;place-items:center}.scratch-message{color:#772342;font-size:clamp(25px,6vw,38px);font-style:italic;text-align:center;padding:24px;line-height:1.4}.scratchbox canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;cursor:crosshair}.micro{font:12px system-ui;color:var(--muted);text-align:center;margin:12px 0}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.photo{aspect-ratio:4/5;border-radius:15px;overflow:hidden;background:linear-gradient(135deg,#43253a,#1b1421);border:1px solid #6b4257;position:relative;display:grid;place-items:center}.photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}.photo span{z-index:1;text-align:center;color:#f7dbe5;padding:12px;font:13px system-ui;text-shadow:0 2px 5px #000}.photo input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;z-index:3}.editrow{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin-top:15px}.filebtn{display:inline-flex;align-items:center;gap:7px;border:1px solid #70465d;border-radius:999px;padding:10px 14px;background:#251523;color:#ffe8f0;font:13px system-ui}.filebtn input{max-width:150px;font-size:11px}
+.musicbox{text-align:center}.vinyl{width:180px;height:180px;margin:22px auto;border-radius:50%;background:repeating-radial-gradient(circle,#08070a 0 4px,#28212b 5px 7px);border:8px solid #08070a;display:grid;place-items:center;box-shadow:0 0 0 1px #6a4b62,0 15px 35px #0006;animation:spin 7s linear infinite;animation-play-state:paused}.vinyl.playing{animation-play-state:running}@keyframes spin{to{transform:rotate(360deg)}}.vinyl button{width:60px;height:60px;border-radius:50%;border:1px solid #ffb4ca;background:radial-gradient(circle,#c14b73,#651735);color:white;font-size:23px}.musicbox p{color:var(--muted);font:14px system-ui}.cake{font-size:105px;filter:drop-shadow(0 12px 15px #0005);animation:bob 2s ease-in-out infinite}.cake.off{filter:grayscale(.6) opacity(.75)}@keyframes bob{50%{transform:translateY(-8px)}}.finale{text-align:center;padding:42px 20px}.finale .bigheart{font-size:54px;animation:heartbeat 1.2s infinite}@keyframes heartbeat{50%{transform:scale(1.15)}}footer{text-align:center;color:#a9899a;font:12px system-ui;padding:38px 0 24px}.confetti{position:fixed;top:-15px;z-index:99;pointer-events:none;animation:fall 3.3s linear forwards;font-size:20px}@keyframes fall{to{transform:translateY(110vh) rotate(700deg);opacity:0}}
+details{margin-top:18px}summary{cursor:pointer;color:#ffd7e4;font:13px system-ui}textarea,input[type=text]{width:100%;border:1px solid #654057;border-radius:10px;background:#120b14;color:#fff0f5;padding:11px;margin:6px 0 12px}label{font:12px system-ui;color:#e5c4d2}.editor{margin-top:20px}.editor button{margin:3px}
+@media(min-width:650px){.gallery{grid-template-columns:repeat(4,minmax(0,1fr))}.hero{min-height:78vh}.card{padding:28px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><span class="brand">♡ a little something for you</span><button class="pill" onclick="document.querySelector('#editor').scrollIntoView({behavior:'smooth'})">Edit my site ✎</button></div>
+  <header class="hero" id="home">
+    <div><div class="eyebrow">for my favorite person</div><h1 id="heroTitle">Happy Birthday,<br>My Love</h1><p id="heroSubtitle">A little universe of memories, wishes, and all the love I have for you.</p><button class="primary" onclick="document.querySelector('#letter').scrollIntoView({behavior:'smooth'})">Open your surprise ♡</button></div>
+  </header>
+
+  <section class="section" id="letter">
+    <div class="section-head"><small>chapter one</small><h2>A letter for you</h2><p>Tap the envelope to open it.</p></div>
+    <div class="card">
+      <div class="letter-stage">
+        <button class="envelope" id="envelope" aria-label="Open the envelope" onclick="openEnvelope()">
+          <div class="env-body"></div><div class="letter-paper"><strong>To my favorite person ♡</strong><p>A little note, written with all my heart...</p></div><div class="flap"></div><div class="seal">♥</div>
+        </button>
+      </div>
+      <div class="hint" id="envelopeHint">Tap the envelope to reveal your letter</div>
+      <div class="letter-content" id="letterContent">Happy birthday, my love. ❤️
+
+Today is special because the world got you — and somehow, my world got brighter too. Thank you for your kindness, your smile, your patience, and all the little things that make you who you are.
+
+I hope this new year brings you peace, health, beautiful surprises, and every dream your heart is brave enough to hold. Whatever life brings, I hope you always remember how deeply you are loved.
+
+You are one of my favorite parts of this life. Happy birthday, sweetheart. ♡</div>
+    </div>
+  </section>
+
+  <section class="section" id="scratch">
+    <div class="section-head"><small>chapter two</small><h2>A little secret</h2><p>Scratch the card with your finger to reveal the message.</p></div>
+    <div class="card scratch-wrap">
+      <div class="scratchbox" id="scratchbox"><div class="scratch-message" id="scratchMessage">You are my favorite person.<br>Today, tomorrow, always. ♡</div><canvas id="scratchCanvas"></canvas></div>
+      <div class="micro">Use your finger or mouse ✨</div>
+      <div class="editrow"><button class="pill" onclick="resetScratch()">Reset scratch card</button></div>
+    </div>
+  </section>
+
+  <section class="section" id="photos">
+    <div class="section-head"><small>chapter three</small><h2>Our little moments</h2><p>Tap any frame to add a photo from your phone.</p></div>
+    <div class="gallery">
+      <div class="photo"><span>Our first favorite memory 📸</span><input type="file" accept="image/*" aria-label="Choose photo one" onchange="addPhoto(this)"></div>
+      <div class="photo"><span>A day I want to remember ✨</span><input type="file" accept="image/*" aria-label="Choose photo two" onchange="addPhoto(this)"></div>
+      <div class="photo"><span>Your beautiful smile ♡</span><input type="file" accept="image/*" aria-label="Choose photo three" onchange="addPhoto(this)"></div>
+      <div class="photo"><span>More memories to come 🌙</span><input type="file" accept="image/*" aria-label="Choose photo four" onchange="addPhoto(this)"></div>
+    </div>
+    <div class="micro">Your chosen photos stay in this browser preview until you add them to the website files before publishing.</div>
+  </section>
+
+  <section class="section" id="music">
+    <div class="section-head"><small>chapter four</small><h2>Our song</h2><p>Add a song that means something to you both.</p></div>
+    <div class="card musicbox">
+      <div class="eyebrow">a song for this moment</div><div class="vinyl" id="vinyl"><button id="musicToggle" onclick="toggleMusic()">▶</button></div>
+      <p id="musicLabel">Choose an audio file to play your song</p>
+      <label class="filebtn">＋ Choose music <input type="file" accept="audio/*" onchange="addMusic(this)"></label>
+      <audio id="audio" loop></audio>
+      <p style="font-size:12px">Music starts only after you tap play. Use a song file you have permission to share.</p>
+    </div>
+  </section>
+
+  <section class="section" id="cake">
+    <div class="section-head"><small>chapter five</small><h2>Make a birthday wish</h2><p>Tap the cake to blow out the candles — then make a wish.</p></div>
+    <div class="card musicbox">
+      <div class="cake" id="cakeEmoji" role="button" tabindex="0" onclick="blowCandles()" onkeydown="if(event.key==='Enter'||event.key===' ')blowCandles()">🎂</div>
+      <h3 id="cakeText" style="font-weight:normal;color:#ffd7e4">Happy Birthday, My Love!</h3>
+      <p id="cakeSub">May your wishes find their way to you.</p>
+      <button class="primary" onclick="celebrate()">Celebrate again ✨</button>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="card finale"><div class="bigheart">♡</div><h2 id="finalTitle" style="font-weight:normal;font-style:italic;color:#ffd5e2;font-size:clamp(32px,7vw,48px)">You deserve all the beautiful things.</h2><p id="finalMessage" style="line-height:1.8;color:#f1dce6">Thank you for being you. I hope this year is as lovely as the love you bring into my life.</p><button class="primary" onclick="celebrate()">One more birthday wish ♥</button></div>
+  </section>
+
+  <section class="section editor" id="editor">
+    <div class="section-head"><small>make it yours</small><h2>Personalize your surprise</h2><p>Edit the words here before sharing. Then save a copy of your edited text.</p></div>
+    <div class="card">
+      <label for="editName">Partner's name (optional)</label><input id="editName" type="text" placeholder="e.g. Sara">
+      <label for="editTitle">Main heading</label><input id="editTitle" type="text" value="Happy Birthday, My Love">
+      <label for="editSubtitle">Subtitle</label><textarea id="editSubtitle" rows="2">A little universe of memories, wishes, and all the love I have for you.</textarea>
+      <label for="editLetter">Letter message</label><textarea id="editLetter" rows="7">Happy birthday, my love. ❤️
+
+Today is special because the world got you — and somehow, my world got brighter too. Thank you for your kindness, your smile, your patience, and all the little things that make you who you are.
+
+I hope this new year brings you peace, health, beautiful surprises, and every dream your heart is brave enough to hold. Whatever life brings, I hope you always remember how deeply you are loved.
+
+You are one of my favorite parts of this life. Happy birthday, sweetheart. ♡</textarea>
+      <label for="editScratch">Secret scratch-card message</label><textarea id="editScratch" rows="2">You are my favorite person. Today, tomorrow, always. ♡</textarea>
+      <label for="editFinal">Final message</label><textarea id="editFinal" rows="3">Thank you for being you. I hope this year is as lovely as the love you bring into my life.</textarea>
+      <div class="editrow"><button class="primary" onclick="applyEdits()">Apply changes</button><button class="pill" onclick="downloadText()">Download my text</button></div>
+      <p class="micro">Important: these edits are a live preview. To make them appear for everyone at your published link, edit the matching text in index.html before uploading it.</p>
+    </div>
+  </section>
+  <footer>Made with love, just for you ♡</footer>
+</div>
+<script>
+function openEnvelope(){
+ const e=document.getElementById('envelope'); e.classList.toggle('open');
+ const opened=e.classList.contains('open');
+ document.getElementById('envelopeHint').textContent=opened?'A little love, just for you ♡':'Tap the envelope to reveal your letter';
+ if(opened)setTimeout(()=>document.getElementById('letterContent').classList.add('show'),350);
+ else document.getElementById('letterContent').classList.remove('show');
+}
+let canvas,ctx,scratching=false;
+function setupScratch(){
+ canvas=document.getElementById('scratchCanvas');const box=document.getElementById('scratchbox');
+ const rect=box.getBoundingClientRect();canvas.width=Math.max(1,Math.floor(rect.width*devicePixelRatio));canvas.height=Math.max(1,Math.floor(rect.height*devicePixelRatio));
+ canvas.style.width='100%';canvas.style.height='100%';ctx=canvas.getContext('2d');ctx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0);
+ const g=ctx.createLinearGradient(0,0,rect.width,rect.height);g.addColorStop(0,'#c7b8c9');g.addColorStop(.5,'#a69aaa');g.addColorStop(1,'#e2c5d0');ctx.fillStyle=g;ctx.fillRect(0,0,rect.width,rect.height);
+ ctx.fillStyle='#4d344b';ctx.font='bold 18px system-ui';ctx.textAlign='center';ctx.fillText('SCRATCH HERE ♥',rect.width/2,rect.height/2);
+ ctx.globalCompositeOperation='destination-out';
+}
+function scratchAt(e){if(!scratching)return;const r=canvas.getBoundingClientRect();ctx.beginPath();ctx.arc(e.clientX-r.left,e.clientY-r.top,22,0,Math.PI*2);ctx.fill();if(Math.random()>.72)checkScratch()}
+function checkScratch(){try{const data=ctx.getImageData(0,0,canvas.width,canvas.height).data;let clear=0;for(let i=3;i<data.length;i+=24)if(data[i]<30)clear++;if(clear>data.length/24*.42)canvas.style.opacity='0'}catch(e){}}
+function resetScratch(){canvas.style.opacity='1';setupScratch()}
+window.addEventListener('load',()=>{setupScratch();canvas.addEventListener('pointerdown',e=>{scratching=true;canvas.setPointerCapture(e.pointerId);scratchAt(e)});canvas.addEventListener('pointermove',scratchAt);['pointerup','pointercancel','pointerleave'].forEach(n=>canvas.addEventListener(n,()=>scratching=false));});
+window.addEventListener('resize',()=>{if(canvas)setupScratch()});
+function addPhoto(input){if(!input.files||!input.files[0])return;const file=input.files[0];const url=URL.createObjectURL(file);const box=input.closest('.photo');let img=box.querySelector('img');if(!img){img=document.createElement('img');box.appendChild(img)}img.src=url;box.querySelector('span').style.background='#10081299';box.querySelector('span').textContent='Photo added ✓';}
+function addMusic(input){if(!input.files||!input.files[0])return;const file=input.files[0];const audio=document.getElementById('audio');audio.src=URL.createObjectURL(file);document.getElementById('musicLabel').textContent=file.name;document.getElementById('musicToggle').textContent='▶';document.getElementById('vinyl').classList.remove('playing')}
+function toggleMusic(){const a=document.getElementById('audio');if(!a.src){document.getElementById('musicLabel').textContent='Choose a song first, then tap play ♡';return}if(a.paused){a.play().then(()=>{document.getElementById('musicToggle').textContent='Ⅱ';document.getElementById('vinyl').classList.add('playing')}).catch(()=>{});}else{a.pause();document.getElementById('musicToggle').textContent='▶';document.getElementById('vinyl').classList.remove('playing')}}
+function blowCandles(){const c=document.getElementById('cakeEmoji');c.classList.toggle('off');document.getElementById('cakeText').textContent=c.classList.contains('off')?'Wish made. May it come true! ✨':'Happy Birthday, My Love!';if(c.classList.contains('off'))burst(32)}
+function celebrate(){burst(70);document.getElementById('cakeEmoji').classList.remove('off');document.getElementById('cakeText').textContent='Happy Birthday, My Love!'}
+function burst(n){const chars=['♡','♥','✦','✨','🌹','💗'];for(let i=0;i<n;i++){const s=document.createElement('span');s.className='confetti';s.textContent=chars[Math.floor(Math.random()*chars.length)];s.style.left=Math.random()*100+'vw';s.style.animationDuration=(2+Math.random()*2)+'s';s.style.fontSize=(12+Math.random()*20)+'px';document.body.appendChild(s);setTimeout(()=>s.remove(),4300)}}
+function applyEdits(){
+ const name=document.getElementById('editName').value.trim();let title=document.getElementById('editTitle').value.trim()||'Happy Birthday, My Love';
+ if(name && title==='Happy Birthday, My Love')title='Happy Birthday, '+name+' ♡';
+ document.getElementById('heroTitle').innerHTML=escapeHTML(title).replace(/\n/g,'<br>');
+ document.getElementById('heroSubtitle').textContent=document.getElementById('editSubtitle').value;
+ document.getElementById('letterContent').textContent=document.getElementById('editLetter').value;
+ document.getElementById('scratchMessage').textContent=document.getElementById('editScratch').value;
+ document.getElementById('finalMessage').textContent=document.getElementById('editFinal').value;
+ document.getElementById('cakeText').textContent='Happy Birthday'+(name?', '+name:'')+'!';
+ document.getElementById('finalTitle').textContent=name?'You are so loved, '+name+'.':'You deserve all the beautiful things.';
+ resetScratch();burst(18);
+}
+function escapeHTML(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function downloadText(){const data={name:document.getElementById('editName').value,title:document.getElementById('editTitle').value,subtitle:document.getElementById('editSubtitle').value,letter:document.getElementById('editLetter').value,scratch:document.getElementById('editScratch').value,final:document.getElementById('editFinal').value};const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='my-birthday-text.json';a.click();URL.revokeObjectURL(a.href)}
+</script>
+</body>
+</html>
